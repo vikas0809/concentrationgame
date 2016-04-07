@@ -1,0 +1,74 @@
+h2 {
+    text-align: center;
+}
+h1 {
+    text-align: center;
+}
+div.img {} #reset_button {
+    align-self: center;
+}
+.header {
+    height: 500px;
+    background: #F0F0F0;
+    border: 1px solid #CCC;
+    width: 960px;
+    margin: 0px auto;
+}
+.header-contents {
+    width: 100%;
+    top: 10px;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    background-color: rgba(0, 0, 0, 1);
+    color: white;
+}
+body {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    background: url('../images/background.jpg') no-repeat center center fixed;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#container {
+    margin: 3% auto;
+    padding: 5%;
+    width: 85%;
+}
+.centered {
+    position: fixed;
+    top: 50%;
+    right: 60%;
+    transform: translate(-50%, -90%);
+    font: 70% auto;
+}
+.centered h1 {
+    color: #1a1aff;
+}
+div.img img {
+    width: 90%;
+    height: auto;
+    float: right;
+}
+.responsive {
+    padding: 10 50px;
+    float: left;
+    width: 24.99999%;
+}
+@media only screen and (max-width: 700px) {
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .responsive {
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 400px) {
+    .centered {
+        font-size: 90%;
+    }
+}
